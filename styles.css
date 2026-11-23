@@ -1,0 +1,22 @@
+:root{--bg:#0b1020;--panel:#121a33;--ink:#e8ecf6;--mut:#a9b3cc;--acc:#38bdf8;--line:#243056}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+a{color:var(--acc)}
+header,main,footer{max-width:960px;margin:0 auto;padding:0 20px}
+header{display:flex;align-items:center;justify-content:space-between;padding-top:20px;padding-bottom:20px;flex-wrap:wrap;gap:12px}
+.marca{font-weight:700;font-size:20px;color:var(--ink);text-decoration:none}
+nav a{margin-left:18px;text-decoration:none;color:var(--mut)}
+nav a:hover{color:var(--ink)}
+.hero{padding:56px 0 32px}
+.hero h1{font-size:clamp(30px,5vw,46px);line-height:1.15;margin:0 0 12px}
+.hero p{color:var(--mut);font-size:19px;max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:24px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--mut)}
+h2{margin:40px 0 8px;font-size:26px}
+.legal h1{font-size:30px}
+.legal li{margin-bottom:8px}
+.aviso{background:#3b2a05;border:1px solid #a16207;color:#fde68a;border-radius:10px;padding:10px 14px}
+footer{border-top:1px solid var(--line);margin-top:56px;padding-top:20px;padding-bottom:40px;color:var(--mut);font-size:14px}
+footer a{margin-right:16px}
